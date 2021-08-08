@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.1" orientation="orthogonal" renderorder="right-down" width="16" height="15" tilewidth="16" tileheight="16" infinite="0" backgroundcolor="#000000" nextlayerid="3" nextobjectid="23">
+ <tileset firstgid="1" name="sprites" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="assets/graphics/sprites.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="257" name="tiles" tilewidth="16" tileheight="16" tilecount="224" columns="16">
+  <image source="assets/graphics/tiles.png" width="256" height="224"/>
+ </tileset>
+ <objectgroup id="2" name="Sprites">
+  <object id="1" type="coin" gid="272" x="64" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="9" type="coin" gid="272" x="80" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="10" type="coin" gid="272" x="96" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="11" type="coin" gid="272" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="12" type="coin" gid="272" x="128" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="13" type="coin" gid="272" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="14" type="coin" gid="272" x="160" y="160" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="2" type="coin" gid="272" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="3" type="coin" gid="272" x="80" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="15" type="coin" gid="272" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="16" type="coin" gid="272" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="17" type="coin" gid="272" x="112" y="96" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="18" type="coin" gid="272" x="128" y="96" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="19" type="coin" gid="272" x="144" y="96" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="4" type="coin" gid="272" x="96" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="5" type="coin" gid="272" x="112" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="6" type="coin" gid="272" x="128" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="7" type="coin" gid="272" x="144" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="8" type="coin" gid="272" x="160" y="128" width="16" height="16">
+   <properties>
+    <property name="collision" value="cross"/>
+   </properties>
+  </object>
+  <object id="21" name="mario" gid="97" x="24" y="16" width="16" height="16"/>
+  <object id="22" name="pipeexit" gid="393" x="204" y="208" width="16" height="16"/>
+ </objectgroup>
+ <layer id="1" name="Collisions" width="16" height="15">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxTYmRAAUqMuDE6SMYhTiwY1T+qH10/pemPGP3mQLYFEFuSqd8dyPYAYk8gVhxgDADdgQ+u
+  </data>
+ </layer>
+</map>
